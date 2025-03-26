@@ -513,9 +513,9 @@
     },
     {
       "name": "go_router",
-      "rootUri": "file:///Users/seongyeon/.pub-cache/hosted/pub.dev/go_router-14.8.1",
+      "rootUri": "file:///Users/seongyeon/.pub-cache/hosted/pub.dev/go_router-6.5.9",
       "packageUri": "lib/",
-      "languageVersion": "3.4"
+      "languageVersion": "2.18"
     },
     {
       "name": "google_maps",
@@ -1262,7 +1262,7 @@
       "languageVersion": "3.7"
     }
   ],
-  "generated": "2025-03-26T04:15:35.777463Z",
+  "generated": "2025-03-26T05:02:25.878844Z",
   "generator": "pub",
   "generatorVersion": "3.7.0",
   "flutterRoot": "file:///Users/seongyeon/flutter",
