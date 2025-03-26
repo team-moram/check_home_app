@@ -85,7 +85,8 @@ class _SplashState extends State<Splash> {
       String version = packageInfo.version;
       logger.d('initState() version $version');
 
-      context.goNamed(Constant.routeRoot);
+
+      context.goNamed(Constant.routeLogin);
 
       //     authViewModel.versionCheck(os, version).then((value) {
       //       logger.d('authViewModel.versionCheck() result $value');

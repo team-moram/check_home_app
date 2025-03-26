@@ -63,7 +63,7 @@ class _MyAppState extends State<MyApp> {
         ),
       ],
       child: ScreenUtilInit(
-        designSize: const Size(360, 780),
+        designSize: Size(393.w, 852.h),
         builder: (BuildContext context, Widget? child) {
           Color canvasColor = colorFFFFFF;
           return MaterialApp.router(
@@ -77,9 +77,11 @@ class _MyAppState extends State<MyApp> {
                 backgroundColor: canvasColor,
                 surfaceTintColor: Colors.transparent,
               ),
-              appBarTheme: const AppBarTheme(
-                shadowColor: Colors.grey,
+              appBarTheme: AppBarTheme(
+                // shadowColor: Colors.grey,
+                color: Colors.transparent,
                 scrolledUnderElevation: 0,
+                toolbarHeight: 56.h
               ),
               bottomSheetTheme: BottomSheetThemeData(
                 backgroundColor: canvasColor,
