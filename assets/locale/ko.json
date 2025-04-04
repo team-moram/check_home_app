@@ -1,4 +1,11 @@
 {
   "ok" : "확인",
-  "cancel" : "취소"
+  "cancel" : "취소",
+  "loginComment1" : "간편하게 로그인하고,",
+  "loginComment2" : "함께 집 보러가요",
+  "loginKakao" : "카카오로 시작하기",
+  "loginGoogle" : "구글로 시작하기",
+  "loginEmail" : "이메일로 시작하기",
+  "askSignUpText" : "아직 회원이 아니신가요?",
+  "join" : "가입하기"
 }

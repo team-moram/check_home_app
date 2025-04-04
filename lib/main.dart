@@ -63,7 +63,7 @@ class _MyAppState extends State<MyApp> {
         ),
       ],
       child: ScreenUtilInit(
-        designSize: Size(393.w, 852.h),
+        designSize: Size(393, 852),
         builder: (BuildContext context, Widget? child) {
           Color canvasColor = colorFFFFFF;
           return MaterialApp.router(
@@ -86,7 +86,7 @@ class _MyAppState extends State<MyApp> {
               bottomSheetTheme: BottomSheetThemeData(
                 backgroundColor: canvasColor,
                 surfaceTintColor: Colors.transparent,
-                constraints: BoxConstraints(minWidth: 360.w),
+                constraints: BoxConstraints(minWidth: 393.w),
               ),
               scaffoldBackgroundColor: canvasColor,
               canvasColor: canvasColor,

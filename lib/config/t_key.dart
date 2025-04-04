@@ -2,7 +2,14 @@ import '../core/utils/localization.dart';
 
 enum TKeys {
   ok,
-  cancel
+  cancel,
+  loginComment1,
+  loginComment2,
+  loginKakao,
+  loginGoogle,
+  loginEmail,
+  askSignUpText,
+  join
 }
 
 //TKeys

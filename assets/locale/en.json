@@ -1,4 +1,11 @@
 {
   "ok" : "ok",
-  "cancel" : "cancel"
+  "cancel" : "cancel",
+  "loginComment1" : "Login easily,",
+  "loginComment2" : "Let's go see the house together",
+  "loginKakao" : "Start with Kakao",
+  "loginGoogle" : "Start with Google",
+  "loginEmail" : "Start with an email",
+  "askSignUpText" : "Are you not a member yet?",
+  "join" : "Sign up"
 }
