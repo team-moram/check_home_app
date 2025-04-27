@@ -1,6 +1,7 @@
 import 'package:check_home_app/config/t_key.dart';
 import 'package:check_home_app/main.dart';
 import 'package:check_home_app/ui/common/custom_button.dart';
+import 'package:check_home_app/ui/widgets/auth/term_modal_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
@@ -305,7 +306,20 @@ class _LoginWithEmailState extends State<LoginWithEmail> {
                     ),
                     // 회원 가입 버튼
                     InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        // 회원 가입 이용 약관 모달
+                        showModalBottomSheet(
+                          context: context,
+                          isScrollControlled: true,
+                          barrierColor: color000000BF,
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.vertical(
+                              top: Radius.circular(16.r),
+                            ),
+                          ),
+                          builder: (context) => TermModalWidget(),
+                        );
+                      },
                       onDoubleTap: () {},
                       child: Container(
                         constraints: BoxConstraints(

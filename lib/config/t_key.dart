@@ -19,7 +19,13 @@ enum TKeys {
   emailEmptyError,
   passwordEmptyError,
   emailValidError,
-  passwordValidError
+  passwordValidError,
+  termComment,
+  agreeAll,
+  ageAgree,
+  useAgree,
+  personalAgree,
+  agreeToStart
 }
 
 //TKeys

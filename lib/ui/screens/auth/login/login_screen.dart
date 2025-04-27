@@ -7,6 +7,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../widgets/auth/term_modal_widget.dart';
+
 /// 로그인 화면
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -142,7 +144,20 @@ class _LoginState extends State<Login> {
 
                   /// 회원 가입 화면 으로 이동
                   InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      // 회원 가입 이용 약관 모달
+                      showModalBottomSheet(
+                        context: context,
+                        isScrollControlled: true,
+                        barrierColor: color000000BF,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.vertical(
+                            top: Radius.circular(16.r),
+                          ),
+                        ),
+                        builder: (context) => TermModalWidget(),
+                      );
+                    },
                     onDoubleTap: () {},
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,

@@ -17,5 +17,11 @@
   "emailEmptyError" : "이메일을 입력해주세요.",
   "passwordEmptyError" : "비밀번호를 입력해주세요.",
   "emailValidError" : "올바른 형식의 이메일 주소를 입력해주세요.",
-  "passwordValidError" : "비밀번호는 문자, 숫자, 특수문자 조합(8~16자)입니다."
+  "passwordValidError" : "비밀번호는 문자, 숫자, 특수문자 조합(8~16자)입니다.",
+  "termComment" : "서비스 이용약관에\n동의해주세요.",
+  "agreeAll" : "네, 모두 동의합니다.",
+  "ageAgree" : "[필수] 만 14세 이상입니다.",
+  "useAgree" : "[필수] 우리방 서비스 이용약관 동의",
+  "personalAgree" : "[필수] 개인정보 수집 및 이용 동의",
+  "agreeToStart" : "동의하고 시작하기"
 }

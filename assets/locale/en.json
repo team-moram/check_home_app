@@ -17,5 +17,11 @@
   "emailEmptyError": "Please enter your email.",
   "passwordEmptyError": "Please enter your password.",
   "emailValidError": "Please enter a valid email address.",
-  "passwordValidError" : "Character, number, and special character combination (8-16 characters)"
+  "passwordValidError" : "Character, number, and special character combination (8-16 characters)",
+  "termComment": "Please agree\nto the Terms of Service.",
+  "agreeAll": "Agree to All",
+  "ageAgree": "[Required] I am 14 years or older.",
+  "useAgree": "[Required] Agree to Our Service Terms",
+  "personalAgree": "[Required] Agree to the Collection and Use of Personal Information",
+  "agreeToStart": "Agree and Start"
 }
