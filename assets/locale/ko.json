@@ -7,5 +7,15 @@
   "loginGoogle" : "구글로 시작하기",
   "loginEmail" : "이메일로 시작하기",
   "askSignUpText" : "아직 회원이 아니신가요?",
-  "join" : "가입하기"
+  "join" : "가입하기",
+  "loginToEmail" : "이메일로 로그인",
+  "inputEmailComment" : "이메일 주소 입력",
+  "inputPasswordComment" : "비밀번호 입력",
+  "emailLogin" : "이메일 로그인",
+  "resetPassword" : "비밀번호 재설정",
+  "joinMembership" : "회원가입 하기",
+  "emailEmptyError" : "이메일을 입력해주세요.",
+  "passwordEmptyError" : "비밀번호를 입력해주세요.",
+  "emailValidError" : "올바른 형식의 이메일 주소를 입력해주세요.",
+  "passwordValidError" : "비밀번호는 문자, 숫자, 특수문자 조합(8~16자)입니다."
 }

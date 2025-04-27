@@ -9,7 +9,17 @@ enum TKeys {
   loginGoogle,
   loginEmail,
   askSignUpText,
-  join
+  join,
+  loginToEmail,
+  inputEmailComment,
+  inputPasswordComment,
+  emailLogin,
+  resetPassword,
+  joinMembership,
+  emailEmptyError,
+  passwordEmptyError,
+  emailValidError,
+  passwordValidError
 }
 
 //TKeys

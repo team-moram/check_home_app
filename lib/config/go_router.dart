@@ -1,10 +1,11 @@
+import 'package:check_home_app/ui/screens/auth/login/login_with_email_screen.dart';
 import 'package:check_home_app/ui/screens/main/more/more_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 import '../constant.dart';
 import '../ui/screens/auth/join/join_screen.dart';
-import '../ui/screens/auth/login_screen.dart';
+import '../ui/screens/auth/login/login_screen.dart';
 import '../ui/screens/index_screen.dart';
 import '../ui/screens/intro/splash_screen.dart';
 import '../ui/screens/main/home/home_screen.dart';
@@ -76,6 +77,16 @@ final GoRouter router = GoRouter(
           path: Constant.routeJoinPath,
           builder: (BuildContext context, GoRouterState state) {
             return const JoinScreen();
+          },
+        ),
+
+        /// email 로그인
+        GoRoute(
+          parentNavigatorKey: rootNavKey,
+          name: Constant.routeLoginWithEmail,
+          path: Constant.routeLoginWithEmailPath,
+          builder: (BuildContext context, GoRouterState state) {
+            return const LoginWithEmailScreen();
           },
         ),
         // GoRoute(

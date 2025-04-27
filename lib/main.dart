@@ -81,7 +81,7 @@ class _MyAppState extends State<MyApp> {
                 // shadowColor: Colors.grey,
                 color: Colors.transparent,
                 scrolledUnderElevation: 0,
-                toolbarHeight: 56.h
+                toolbarHeight: 54.h
               ),
               bottomSheetTheme: BottomSheetThemeData(
                 backgroundColor: canvasColor,

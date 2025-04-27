@@ -7,5 +7,15 @@
   "loginGoogle" : "Start with Google",
   "loginEmail" : "Start with an email",
   "askSignUpText" : "Are you not a member yet?",
-  "join" : "Sign up"
+  "join" : "Sign up",
+  "loginToEmail": "Login with Email",
+  "inputEmailComment": "Enter your email address",
+  "inputPasswordComment": "Enter your password",
+  "emailLogin": "Email Login",
+  "resetPassword": "Reset Password",
+  "joinMembership": "Sign Up",
+  "emailEmptyError": "Please enter your email.",
+  "passwordEmptyError": "Please enter your password.",
+  "emailValidError": "Please enter a valid email address.",
+  "passwordValidError" : "Character, number, and special character combination (8-16 characters)"
 }
