@@ -1,7 +1,9 @@
+import 'package:check_home_app/constant.dart';
 import 'package:check_home_app/ui/common/custom_button.dart';
 import 'package:check_home_app/ui/widgets/auth/term_check_box_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:go_router/go_router.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 import '../../../config/t_key.dart';
@@ -131,7 +133,11 @@ class _TermModalWidgetState extends State<TermModalWidget> {
           ),
           SizedBox(height: 64.h),
           InkWell(
-            onTap: (check14 && checkTerms && checkPrivacy) ? () {} : null,
+            onTap: (check14 && checkTerms && checkPrivacy) ? () {
+              //  회원가입 화면으로 이동
+              context.pop(context);
+              context.pushNamed(Constant.routeJoin);
+            } : null,
             onDoubleTap: null,
             child: SizedBox(
               width: 353.w,

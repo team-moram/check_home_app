@@ -23,5 +23,20 @@
   "ageAgree": "[Required] I am 14 years or older.",
   "useAgree": "[Required] Agree to Our Service Terms",
   "personalAgree": "[Required] Agree to the Collection and Use of Personal Information",
-  "agreeToStart": "Agree and Start"
+  "agreeToStart": "Agree and Start",
+  "joinTitle": "Sign Up",
+  "email": "Email",
+  "inputEmail": "Enter email",
+  "emailValid": "Enter a valid email.",
+  "password": "Password",
+  "inputPassword": "8+ letters, numbers, special chars",
+  "passwordValid": "Use 8+ letters, numbers, special chars.",
+  "checkPassword": "Confirm Password",
+  "samePassword": "Passwords do not match.",
+  "nickname": "Nickname",
+  "nicknameValid": "2–10 characters: Korean, English, numbers.",
+  "nicknameError": "Nickname already taken.",
+  "usableNickname": "Nickname available.",
+  "nicknameNull": "Enter a nickname.",
+  "checkNickname": "Check"
 }

@@ -25,7 +25,22 @@ enum TKeys {
   ageAgree,
   useAgree,
   personalAgree,
-  agreeToStart
+  agreeToStart,
+  joinTitle,
+  email,
+  inputEmail,
+  emailValid,
+  password,
+  inputPassword,
+  passwordValid,
+  checkPassword,
+  samePassword,
+  nickname,
+  nicknameValid,
+  nicknameError,
+  usableNickname,
+  nicknameNull,
+  checkNickname
 }
 
 //TKeys

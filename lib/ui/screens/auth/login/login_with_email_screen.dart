@@ -205,12 +205,12 @@ class _LoginWithEmailState extends State<LoginWithEmail> {
                           icon:
                               obscureText
                                   ? Image.asset(
-                                    'assets/images/ic_visibility.png',
+                                    'assets/images/ic_visibility_off.png',
                                     width: 20.w,
                                     height: 20.w,
                                   )
                                   : Image.asset(
-                                    'assets/images/ic_visibility_off.png',
+                                    'assets/images/ic_visibility.png',
                                     width: 20.w,
                                     height: 20.w,
                                   ),
